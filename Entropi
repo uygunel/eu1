@@ -1,0 +1,14 @@
+Karar Ağaçları algoritmasını bir örnek üzerinde uygulamaya çalışalım. Algoritmayı hatırlamak gerekirse ;
+1)T öğrenme kümesini oluştur.
+2)T kümesindeki örnekleri en iyi ayıran niteliği belirle.
+3)Seçilen nitelik ile ağacın bir düğümünü oluştur ve bu düğümden alt düğümleri veya yaprak düğümünü oluştur. Alt düğümlere ait alt veri kümesinin örneklerini incele.
+4)Adımda oluşturulan her alt veri kümesi için
+-Örneklerin hepsi aynı sınıfa ait
+-Örnekleri bölecek özellik kalmamış
+-Kalan özelliklerin değerini taşıyan örnek kalmayıncaya kadar devam eder.
+2. adımdaki örnekleri en iyi ayıran nitelik Bilgi Kazanımı ile seçilir.
+Değişken Seçimi Ölçüsü : Bilgi Kazanımı
+  - En yüksek bilgi kazanımını veren değişkeni seç
+  -S,Ci sınıfından si satır içerir. . i = {1, …, m} 
+  -Herhangi bir satiri sınıflandırmak için gereken bilgi 
+  
